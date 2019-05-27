@@ -5,10 +5,16 @@ import css from './header.module.sass'
 const Header = () => {
   return (
     <div className={`${css.header} container`}>
-      <h1 className="logo">Logo</h1>
+      <h1 className="logo">Articles words</h1>
       <Nav />
     </div>
   )
 }
+
+// const article = {
+//   id: 1,
+//   title: 'Some title',
+//   category: ['koa', 'nodejs']
+// }
 
 export default Header
