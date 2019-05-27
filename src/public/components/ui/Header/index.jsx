@@ -5,7 +5,7 @@ import css from './header.module.sass'
 const Header = () => {
   return (
     <div className={`${css.header} container`}>
-      <h1 className="logo">Articles words</h1>
+      <h1 className={css.logo}>Articles words</h1>
       <Nav />
     </div>
   )
